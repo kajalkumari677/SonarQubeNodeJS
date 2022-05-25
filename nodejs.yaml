@@ -4,9 +4,6 @@
    - name: Install forever
      npm: name=forever global=yes state=present
 
-   - name: cloning the repo
-     command: git clone https://github.com/anujdevopslearn/SonarQubeNodeJS.git
-
    - name: npm installation
      command: npm install
      args:
